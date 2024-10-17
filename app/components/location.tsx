@@ -17,13 +17,11 @@ export default function Location() {
           <div className="flex flex-row  gap-4  items-center">
             <div className="bg-[#01816f] h-1 w-5"></div>
             <div className={`${pop.className}text-white text-[26px]`}>
-              {" "}
               Best Features
             </div>
           </div>
           <div className=" text-[8vh] leading-tight font-bold ml-8">
-            {" "}
-            <span className=" text-[#30a596]">Key Features </span>of <br />{" "}
+            <span className=" text-[#30a596]">Key Features </span>of <br />
             Coffee Shop App
           </div>
         </div>
@@ -45,11 +43,10 @@ export default function Location() {
           <div className=" flex flex-row items-center gap-3 px-[10px]  ">
             <div className="bg-yellow-500 h-10 w-[3px] "></div>
             <div className=" text-white text-[18px] ">
-              {" "}
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
               dignissimos repellat, <br />
               temporibus quaerat beatae provident delectus quam asperiores
-              veritatis i{" "}
+              veritatis i
             </div>
           </div>
         </div>
