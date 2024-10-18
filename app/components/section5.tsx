@@ -7,7 +7,7 @@ const pop = Poppins({
   display: "swap",
 });
 
-export default function Location() {
+export default function Section5() {
   return (
     <div className="bg-[url('/black_design_bg.png')] bg-cover bg-center w-full h-[45rem]">
       {/* row start */}
@@ -72,7 +72,7 @@ export default function Location() {
             />
           </div>
         </div>
-        <div className=" bg-white shadow-md h-[40rem] w-[28rem] rounded-t-2xl">
+        <div className=" bg-white  h-[40rem] w-[28rem] rounded-t-2xl">
           <div className=" flex flex-col gap-3 items-center">
             <Image
               src={"/location_screen_2.png"}
@@ -90,8 +90,29 @@ export default function Location() {
             </div>
           </div>
         </div>
-        <div className=" bg-green-300 h-[40rem] w-[28rem] rounded-t-2xl"> </div>
+        <div className=" bg-white h-[40rem] w-[28rem] rounded-t-2xl">
+          
+        <div className=" flex flex-col gap-3 items-center">
+            <div className=" font-semibold text-[30px] mt-8 text-black">
+              Explore Nearby Cafe
+            </div>
+            <div className="px-7 text-gray-500 leading-relaxed">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum soluta sit, vero deserunt illo consequuntur
+            </div>
+
+            <Image
+              src={"/video_call.png"}
+              alt={"screen1"}
+              height={100}
+              width={4000}
+              className="h-[65vh] mt-[2.1vh] w-[40vh]"
+            />
+          </div>
+
+           </div>
       </div>
+      
     </div>
   );
 }
