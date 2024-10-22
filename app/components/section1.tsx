@@ -23,7 +23,7 @@ export default function Section1() {
   return (
     <div>
       
-      <div className="bg-[#01816f] h-[68rem] w-full animate-appear">
+      <div className="bg-[#01816f] h-[68rem] w-full ">
   {/* navbar start */}
   <div className="flex justify-center ">
     <div className="h-[4.5rem] w-[75rem] flex items-center justify-between bg-white rounded-full mt-[30px]">
