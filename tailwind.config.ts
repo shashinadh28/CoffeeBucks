@@ -12,8 +12,18 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      keyframes: {
+        scrollUp: {
+          '0%': { opacity: '0', transform: 'translateY(20px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+      },
+      animation: {
+        scrollUp: 'scrollUp 2s ease-out forwards', // Custom scroll up animation
+      },
     },
   },
   plugins: [],
 };
+
 export default config;

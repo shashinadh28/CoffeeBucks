@@ -1,25 +1,15 @@
-import { Raleway } from "next/font/google";
 import Image from "next/image";
 import { Rubik } from "next/font/google";
-import { Poppins } from "next/font/google";
 
 
-const pop = Poppins({
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"], // Specify weights
-  subsets: ["latin"], // Specify subsets
-  display: "swap",
-});
+
 const rubik = Rubik({
     weight: ["300", "400", "500", "600", "700", "800", "900"], // Specify weights
     subsets: ["latin"], // Specify subsets
     display: "swap",
   });
 
-const rale = Raleway({
-    weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"], // Specify weights
-    subsets: ["latin"], // Specify subsets
-    display: "swap",
-  });
+
 export default function Section2(){
     return(
         <div>

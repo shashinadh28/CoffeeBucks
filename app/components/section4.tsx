@@ -81,8 +81,8 @@ export default function Section4() {
                   Place Your Order
                 </div>
                 <div className="text-gray-500 font-sans text-lg">
-                  "Order your favorite coffee online and enjoy it <br /> from
-                  the comfort of your home!"{" "}
+                  &quot; Order your favorite coffee online and enjoy it <br /> from
+                  the comfort of your home!&quot;{" "}
                 </div>
               </div>
               {/* col end  */}
@@ -106,8 +106,8 @@ export default function Section4() {
                   Order Delivered
                 </div>
                 <div className="text-gray-500 font-sans text-lg">
-                  "Order your favorite coffee online and enjoy it <br /> from
-                  the comfort of your home!"{" "}
+                &quot;Order your favorite coffee online and enjoy it <br /> from
+                  the comfort of your home!&quot;{" "}
                 </div>
               </div>
               {/* col end  */}

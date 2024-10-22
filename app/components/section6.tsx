@@ -1,26 +1,12 @@
 "use client";
-import { Raleway } from "next/font/google";
-import { Rubik } from "next/font/google";
-import { Poppins } from "next/font/google";
+
 import { useState } from "react";
 
 // Importing fonts for styling
-const pop = Poppins({
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  subsets: ["latin"],
-  display: "swap",
-});
-const rubik = Rubik({
-  weight: ["300", "400", "500", "600", "700", "800", "900"],
-  subsets: ["latin"],
-  display: "swap",
-});
 
-const rale = Raleway({
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  subsets: ["latin"],
-  display: "swap",
-});
+
+
+
 
 // Main section component
 export default function Section6() {

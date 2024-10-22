@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "framer-motion": "^11.11.9",
+    "locomotive-scroll": "^4.1.4",
     "next": "14.2.14",
     "react": "^18",
     "react-dom": "^18",
@@ -18,6 +19,7 @@
     "swiper": "^11.1.14"
   },
   "devDependencies": {
+    "@types/locomotive-scroll": "^4.1.3",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
